@@ -7,8 +7,8 @@ function App() {
 
   return (
     <div>
-      <div className='text-center text-4xl font-bold mt-5'>The power of intelligence tools</div>
-      <div className='text-center text-lg text-gray-500 w-[700px] mx-auto mt-5'>Our platform offers a comprehensive suit of AI-powered solutions designed to elevate your business</div>
+      <div className='text-center text-4xl font-bold mt-5 mx-[50px]'>The power of intelligence tools</div>
+      <div className='text-center text-lg text-gray-500 max-w-[700px] w-[90%] mx-auto mt-5'>Our platform offers a comprehensive suit of AI-powered solutions designed to elevate your business</div>
 
       <div className='flex justify-center gap-5 mt-10'>
         <div className='flex border gap-2 px-4 py-2 rounded-4xl items-center'>
@@ -18,7 +18,7 @@ function App() {
         <div className='bg-black text-white px-6 rounded-3xl text-sm flex items-center'>Search</div>
       </div>
 
-      <div className='flex justify-center gap-4 mt-15'>
+      <div className='flex justify-center gap-4 mt-15 flex-wrap'>
 
         <div className='w-[380px] flex flex-col gap-4'>
 
@@ -56,7 +56,7 @@ function App() {
           </div>
         </div>
 
-        <div className='border w-[400px] bg-black p-5 gap-4 flex flex-col rounded-xl text-white'>
+        <div className='border w-[380px] bg-black p-5 gap-4 flex flex-col rounded-xl text-white'>
           <div className='flex items-center gap-2'>
             <div className='text-xl font-medium'>Human-Machine Collaboration</div>
             <FaHeart size={14} className='ml-auto' />
